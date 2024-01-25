@@ -1,0 +1,39 @@
+body {
+    background-image: url(images/universeThreeAnimated.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+:root {
+    --columbia-blue: #BDD2EBff;
+    --prussian-blue: #10374Eff;
+    --vista-blue: #8198B9ff;
+    --coyote: #7A6039ff;
+    --van-dyke: #463E3Cff;
+}
+
+.btn {
+    padding: 6px 12px;
+    background-size: white;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: larger;
+    color: var(--prussian-blue);
+}
+
+.underline {
+    border-bottom: 2px solid white;
+    color: var(--columbia-blue);
+}
+
+#logo {
+    width: 200px;
+}
+
+#title {
+    color: var(--columbia-blue);
+}
